@@ -19,15 +19,14 @@ function ButtonList() {
     const [bodyColor, setBodyColor] = useState("greenyellow");
 
     document.body.style.backgroundColor = bodyColor;
-    
+
 
     function handleClickBtn1() {
 
         if (buttonStatus1) {        
 
         const randomColor = Math.random().toString(16).slice(2, 8);
-        const randomBodyColor = '#' + randomColor;            
-        document.body.style.backgroundColor = `${randomBodyColor}`;
+        const randomBodyColor = '#' + randomColor;        
         setBodyColor(`${randomBodyColor}`);
 
         const randomColorBtn = Math.random().toString(16).slice(2, 8);
@@ -45,8 +44,7 @@ function ButtonList() {
         if (buttonStatus2) {        
 
         const randomColor = Math.random().toString(16).slice(2, 8);
-        const randomBodyColor = '#' + randomColor;            
-        document.body.style.backgroundColor = `${randomBodyColor}`;
+        const randomBodyColor = '#' + randomColor;        
         setBodyColor(`${randomBodyColor}`);
 
         const randomColorBtn = Math.random().toString(16).slice(2, 8);
@@ -64,8 +62,7 @@ function ButtonList() {
         if (buttonStatus3) {        
 
         const randomColor = Math.random().toString(16).slice(2, 8);
-        const randomBodyColor = '#' + randomColor;            
-        document.body.style.backgroundColor = `${randomBodyColor}`;
+        const randomBodyColor = '#' + randomColor;       
         setBodyColor(`${randomBodyColor}`);
 
         const randomColorBtn = Math.random().toString(16).slice(2, 8);
@@ -83,8 +80,7 @@ function ButtonList() {
         if (buttonStatus4) {        
 
         const randomColor = Math.random().toString(16).slice(2, 8);
-        const randomBodyColor = '#' + randomColor;            
-        document.body.style.backgroundColor = `${randomBodyColor}`;
+        const randomBodyColor = '#' + randomColor;        
         setBodyColor(`${randomBodyColor}`);
 
         const randomColorBtn = Math.random().toString(16).slice(2, 8);
